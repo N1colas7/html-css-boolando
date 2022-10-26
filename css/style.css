@@ -56,6 +56,15 @@ header{
     top: 89%;
     right: 66%;
 }
+.sostenibilità_2{
+    background-color: green;
+    color: white;
+    text-align: center;
+    width: 23%;
+    font-size: 15px;
+    position: absolute;
+    top: 89%;
+}
 .sconto{
     background-color: red;
     color: white;
@@ -64,4 +73,13 @@ header{
     font-size: 15px;
     position: absolute;
     top: 89%;
+}
+.heart{
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 31px;
+    top: 12%;
+    right: 20%;
+    width: 10%;
 }
