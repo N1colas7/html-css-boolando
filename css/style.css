@@ -25,19 +25,43 @@ header{
 .row{
     width: 100%;
     display:flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
 }
 .col{
-    width: calc(100% / 3);
-    display: flex;
+    width: calc(80% / 3);
     
 }
 .content{
-    height: 600px;
+    padding-top: 10%;
+    position: relative;
 }
 .content img{
-    width: 100%;
-    height: 100%;
-    margin: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+.red_text{
+    color: red;
+}
+.linea_text{
+    text-decoration: line-through;
+}
+.sostenibilità{
+    background-color: green;
+    color: white;
+    text-align: center;
+    width: 23%;
+    font-size: 15px;
+    position: absolute;
+    top: 89%;
+    right: 66%;
+}
+.sconto{
+    background-color: red;
+    color: white;
+    width: 10%;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    top: 89%;
 }
